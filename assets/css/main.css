@@ -769,6 +769,7 @@ body.light-theme {
 .quote {
   background-color: var(--secondary-background-color);
   padding: 2.5rem;
+  text-align: center;
 }
 
 .quote p {
