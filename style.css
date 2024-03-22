@@ -299,7 +299,7 @@
       border: var(--borderAqua);
     }
     .header {
-      background-image: url(images/phone-background-tom.png);
+      /* background-image: url(images/phone-background-tom.png); */
     }
     .header-text {
       margin-top: 100%;
