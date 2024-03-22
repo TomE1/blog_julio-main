@@ -16,7 +16,7 @@
   }
   
   /* cool borders */
-  /* :root {
+  :root {
     --borderRed: 2px solid red;
     --borderLime: 2px solid lime;
     --borderPink: 2px solid pink;
@@ -33,7 +33,7 @@
     --borderGreen: 2px solid green;
     --borderAqua: 4px solid aqua;
     --borderTurquoise: 2px solid turquoise;
-  } */
+  } 
   
   /* --------------------- header -------------------------- */
   
