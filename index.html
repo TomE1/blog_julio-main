@@ -1,604 +1,171 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TomE Change</title>
-    <!-- Favicon -->
+    <link rel="stylesheet" href="styles.css" />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon.png"
-    />
-    <!-- Remix icons -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <!-- Swiper.js styles -->
-    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Resume Website</title>
   </head>
   <body>
-    <!-- Header -->
-  
-    <header class="header" id="header">
-      <nav class="navbar container">
-        <a href="index.html">
-          <h2 class="logo">TomE Codes now and forever</h2>
-        </a>
-        <div class="menu" id="menu">
-          <ul class="list">
-            <li class="list-item">
-              <a href="#" class="list-link current">Home changes</a>
-            </li>
-            <li class="list-item">
-              <a href="blog_main.html" class="list-link">Blog</a>
-            </li>
-            <li class="list-item">
-              <a href="#" class="list-link">Gallery
-           
-            <li class="list-item">
-              <a href="#" class="list-link">Contact</a>
-            </li>
-       
-     
-          </ul>
-        </div>
-        <div class="list list-right">
-          <button class="btn place-items-center" id="theme-toggle-btn">
-            <i class="ri-sun-line sun-icon"></i>
-            <i class="ri-moon-line moon-icon"></i>
-          </button>
+    <!-- ----------------- header ------------------------>
 
-          <button class="btn place-items-center" id="search-icon">
-          </button>
-
-          <button
-            class="btn place-items-center screen-lg-hidden menu-toggle-icon"
-            id="menu-toggle-icon"
-          >
-            <i class="ri-menu-3-line open-menu-icon"></i>
-            <i class="ri-close-line close-menu-icon"></i>
-          </button>
-
-   
-        </div>
-      </nav>
-    </header>
-    <!-- Header end -->
-
-
-    <!-- Search -->
-
-    <div class="search-form-container container" id="search-form-container">
-      <div class="form-container-inner">
-      
-      </div>
-      <button class="btn form-close-btn place-items-center" id="form-close-btn">
-        <i class="ri-close-line"></i>
-      </button>
-    </div>
-
-    <!-- Featured articles -->
-
-    <section class="featured-articles section-header-offset">
-      <div class="featured-articles-container container d-grid">
-        <div class="featured-content d-grid">
-
-          <!-- headline banner begin -->
-
-          <div class="headline-banner">
-            <h3 class="headline fancy-border">
-              <span class="place-items-center">tomecodes.change</span>
-            </h3>
-
-            <span class="headline-description"
-              >A mash-up of projects and ideas...</span
-            >
-          </div>
-
-          <!-- end headline banner -->
-
-          <a
-            href="./post_main.html"
-            class="article featured-article featured-article-1"
-          >
-            <img
-              src="./assets/images/featured/featured-1.jpg"
-              alt=""
-              class="article-image"
-            />
-            <span class="article-category"> Technology</span>
-            <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-            </div>
-            <a />
-          <a
-            href="./post_pics.html"
-            class="article featured-article featured-article-2"
-          >
-            <img
-              src="./assets/images/featured/featured-2.jpg"
-              alt=""
-              class="article-image"
-            />
-            <span class="article-category"> Technology</span>
-            <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-            </div>
-            <a />
-          <a
-            href="./post.html"
-            class="article featured-article featured-article-3"
-          >
-            <img
-              src="./assets/images/featured/featured-3.jpg"
-              alt=""
-              class="article-image"
-            />
-            <span class="article-category"> Technology</span>
-            <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-            </div>
-            <a />        
-        </div>
-
-    <!-- Featured articles end? -->
-
-
-  <!--  sidebar -->
-
-<div class="sidebar d-grid">
-  <h3 class="title featured-content-title">What's Happening</h3>
-
- 
-  <a href="11.9.23_moving_day.html" class="trending-news-box">
-    <div class="trending-news-image-box">
-      <span class="trending-number place-items-center">01</span>
-      <img src="./assets/images/blog/Uncertain-Times.jpg" alt="" class="article-image">
-    </div>
-    <div class="trending-news-data">
-       <div class="article-data">
-                <span>November 9th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>5 min read </span>
-              </div>
-          <h3 class="title-article-title">Moving Day</h3>
-    </div>
-  </a>
-  <a href="#  " class="trending-news-box">
-    <div class="trending-news-image-box">
-      <span class="trending-number place-items-center">02</span>
-      <img src="./assets/images/trending/trending_2.jpg" alt="" class="article-image">
-    </div>
-    <div class="trending-news-data">
-       <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-          <h3 class="title-article-title">Sample Article Title</h3>
-    </div>
-  </a>
-  <a href="#  " class="trending-news-box">
-    <div class="trending-news-image-box">
-      <span class="trending-number place-items-center">03</span>
-      <img src="./assets/images/trending/trending_3.jpg" alt="" class="article-image">
-    </div>
-    <div class="trending-news-data">
-       <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-          <h3 class="title-article-title">Sample Article Title</h3>
-    </div>
-  </a>
-  <a href="#  " class="trending-news-box">
-    <div class="trending-news-image-box">
-      <span class="trending-number place-items-center">04</span>
-      <img src="./assets/images/trending/trending_4.jpg" alt="" class="article-image">
-    </div>
-    <div class="trending-news-data">
-       <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-          <h3 class="title-article-title">Sample Article Title</h3>
-    </div>
-  </a>
-  <a href="#  " class="trending-news-box">
-    <div class="trending-news-image-box">
-      <span class="trending-number place-items-center">05</span>
-      <img src="./assets/images/trending/trending_5.jpg" alt="" class="article-image">
-    </div>
-    <div class="trending-news-data">
-       <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-          <h3 class="title-article-title">Sample Article Title</h3>
-    </div>
-  </a>
-</div>
-</div>
-</section>
-
-
-    <!-- Quick read -->
-
-<section class="quick-read section">
-  <div class="container">
-    <h2 class='title section-title' data-name='Quick Read'>Quick Read</h2>
-
-
-
-    <div class="swiper">
-      <div class="swiper-wrapper">
-
-          
-        <a href="#" class="article swiper-slide">
-          <img src="./assets/images/quick_read/quick_read_1.jpg" alt="" class="article-image">
-       <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-            </div>
-        </a>
-
-
-        <a href="#" class="article swiper-slide">
-          <img src="./assets/images/quick_read/quick_read_2.jpg" alt="" class="article-image">
-       <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-            </div>
-
-        </a>
-        <a href="#" class="article swiper-slide">
-          <img src="./assets/images/quick_read/quick_read_3.jpg" alt="" class="article-image">
-       <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-            </div>
-        </a>
-
-        <a href="#" class="article swiper-slide">
-          <img src="./assets/images/quick_read/quick_read_4.jpg" alt="" class="article-image">
-       <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-            </div>
-        </a>
-
-        <a href="#" class="article swiper-slide">
-          <img src="./assets/images/quick_read/quick_read_5.jpg" alt="" class="article-image">
-       <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-            </div>
-        </a>
-
-        <a href="#" class="article swiper-slide">
-          <img src="./assets/images/quick_read/quick_read_6.jpg" alt="" class="article-image">
-       <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-            </div>
-        </a>
-
-
-      </div>
-
-      <div class="swiper-button-prev swiper-controls"></div>
-      <div class="swiper-button-next swiper-controls"></div>
-
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-</section>
-
-
-    <!-- Older posts -->
-
-    <section class='older-posts section'>
+    <section id="header" class="header">
       <div class="container">
-        <h2 class="title section-title" data-name="Older Posts">Older Posts</h2>
-        <div class="older-posts-grid-wrapper d-grid">
-
-   
-          <a href="#" class="article d-grid">
-            <div class="older-posts-article-image-wrapper">
-<img src="./assets//images/older_posts/older_posts_1.jpg" alt="" class="article-image">
-            </div>
-                   <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-              <p class="article-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem deleniti tenetur iste saepe sint asperiores optio error autem quos!
-              </p>
-            </div>
-          </a>
-          <a href="#" class="article d-grid">
-            <div class="older-posts-article-image-wrapper">
-<img src="./assets//images/older_posts/older_posts_2.jpg" alt="" class="article-image">
-            </div>
-                   <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-              <p class="article-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem deleniti tenetur iste saepe sint asperiores optio error autem quos!
-              </p>
-            </div>
-          </a>
-          <a href="#" class="article d-grid">
-            <div class="older-posts-article-image-wrapper">
-<img src="./assets//images/older_posts/older_posts_3.jpg" alt="" class="article-image">
-            </div>
-                   <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-              <p class="article-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem deleniti tenetur iste saepe sint asperiores optio error autem quos!
-              </p>
-            </div>
-          </a>
-          <a href="#" class="article d-grid">
-            <div class="older-posts-article-image-wrapper">
-<img src="./assets//images/older_posts/older_posts_4.jpg" alt="" class="article-image">
-            </div>
-                   <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-              <p class="article-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem deleniti tenetur iste saepe sint asperiores optio error autem quos!
-              </p>
-            </div>
-          </a>
-          <a href="#" class="article d-grid">
-            <div class="older-posts-article-image-wrapper">
-<img src="./assets//images/older_posts/older_posts_5.jpg" alt="" class="article-image">
-            </div>
-                   <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-              <p class="article-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem deleniti tenetur iste saepe sint asperiores optio error autem quos!
-              </p>
-            </div>
-          </a>
-          <a href="#" class="article d-grid">
-            <div class="older-posts-article-image-wrapper">
-<img src="./assets//images/older_posts/older_posts_6.jpg" alt="" class="article-image">
-            </div>
-                   <div class="article-data-container">
-              <div class="article-data">
-                <span>October 24th, 2023 </span>
-                <span class="article-data-spacer"></span>
-                <span>8 min read </span>
-              </div>
-              <h3 class="title article-title">---</h3>
-              <p class="article-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem deleniti tenetur iste saepe sint asperiores optio error autem quos!
-              </p>
-            </div>
-          </a>
+        <nav>
+          <img src="images/tome.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Hello,</p>
+          <h1>
+            I'm <span> Tom. </span> <br />
+            An ESL Teacher.
+          </h1>
         </div>
-
-        <div class="see-more-container">
-          <a href="#" class="btn see-more-btn place-items-center">
-            See More <i class="ri-arrow-right-s-line"></i>
-
-            </i>
-          </a>
-        </div>
-
       </div>
     </section>
 
-    
-    <!-- Popular tags -->
+    <!-- ----------------- about ------------------------>
 
-<section class="popular-tags section">
-  <div class="container">
-    <h2 class="title section-title" data-name="Popular Tags">Popular Tags</h2>
-    <div class="popular-tags-container d-grid">
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="about1">
+              I'm from the United States, currently in Ho Chi Minh City. I
+              totally love being a part of the incredible educational scene in
+              Asia, and I'm currently on the lookout for a full time teaching
+              position. <br /><br />
+              Feel free to contact me if you have any teaching work available.
+              <br /><br />
+              Best regards,
 
-      <a href="#" class="article">
-        <span class="tag-name">#Travel</span>
-        <img src="./assets/images/tags/travel-tag.jpg" alt="" class="article-image">
-      </a>
-      <a href="#" class="article">
-        <span class="tag-name">#Food</span>
-        <img src="./assets/images/tags/food-tag.jpg" alt="" class="article-image">
-      </a>
-      <a href="#" class="article">
-        <span class="tag-name">#Technology</span>
-        <img src="./assets/images/tags/technology-tag.jpg" alt="" class="article-image">
-      </a>
-      <a href="#" class="article">
-        <span class="tag-name">#Fitness</span>
-        <img src="./assets/images/tags/fitness-tag.jpg" alt="" class="article-image">
-      </a>
-      <a href="#" class="article">
-        <span class="tag-name">#Health</span>
-        <img src="./assets/images/tags/health-tag.jpg" alt="" class="article-image">
-      </a>
-      <a href="#" class="article">
-        <span class="tag-name">#Nature</span>
-        <img src="./assets/images/tags/nature-tag.jpg" alt="" class="article-image">
-      </a>
-    
-    </div>
-  </div>
-</section>
+              <br />Tom Evans <br />
+            </p>
 
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('experience')">
+                Experience
+              </p>
 
-    <!-- Footer -->
+              <p class="tab-links" onclick="openTab('education')">Education</p>
 
-    <div class="footer section">
+              <!-- <p class="tab-links" onclick="openTab('skills')">Skills</p> -->
+            </div>
 
-      <div class="footer-container container d-grid">
+            <div class="tab-contents active-tab" id="experience">
+              <ul>
+                <li>
+                  <span>2020 - 2023</span><br />English Teacher | Language Link
+                  | Hanoi, Hung Yen, Hai Duong - Vietnam
+                </li>
+                <li>
+                  <span>2019 - 2020</span><br />English Teacher | EMG Education
+                  | Ho Chi Minh, Vietnam
+                </li>
+                <li>
+                  <span>2009 - 2016</span><br />English Teacher | Mahidol
+                  University ICT Faculty | Salaya, Thailand
+                </li>
+                <li>
+                  <span>2007 - 2009</span><br />English Teacher | Potisarn
+                  Pittayakorn School English Program | Bangkok, Thailand
+                </li>
+                <li>
+                  <span>2005 - 2007</span><br />English Teacher |
+                  Benjamarachutit School English Program | Nakhorn Sri
+                  Thammarat, Thailand
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2008</span><br />RAJABAHT UNIVERSITY - Bangkok, Thailand</li>
+                - Thai Language and Culture and Professional Ethics Certificate
+                <li><span>2001</span><br />TEXT AND TALK LANGUAGE ACADEMY</li>
+                - TEFL certificate
+                <li><span>1994</span><br />UNIVERSITY OF HAWAII – Manoa, Oahu</li>
+                - Bachelor of Arts - Japanese Language and Literature
+              </ul>
+            </div>
 
-
-        <div class="company-data">
-
-          <a href="./index.html">
-            <h2 class="logo"></h2>
-          </a>
-          <p class="company-description">Welcome to my portfolio site. It's not perfect because it's always a work in progress..</p>
-
-          <ul class="list social-media">
-            
-            <li class='list-item'>
-            
-              <a href="" class="list-link">
-                <i class="ri-instagram-line">
-                </i>
-
-              </a>
-              <a href="" class="list-link">
-                <i class="ri-facebook-circle-line">
-
-                </i>
-              </a>
-              <a href="" class="list-link">
-                <i class="ri-twitter-line">
-
-                </i>
-              </a>
-              <a href="" class="list-link">
-                <i class="ri-pinterest-line">
-                </i>
-              </a>
-        
-            </li>
-          </ul>
-
-<span class="copyright-notice">
-  &copy; 2023 | Tom Evans
-</span>
-
+            <!-- <div class="tab-contents" id="skills">
+              <ul>
+                <li><span>3.1</span><br />Designing Web/App Interfaces</li>
+                <li><span>3.2</span><br />Designing Web/App Interfaces</li>
+                <li><span>3.3</span><br />Designing Web/App Interfaces</li>
+              </ul>
+            </div> -->
+          </div>
         </div>
-
-
-<div>
-  <h6 class="title footer-title">Categories</h6>
-
-  <ul class="list footer-list">
-    <li class="list-item">
-      <a href="#" class="list-link">Sample Item</a>
-    </li>
-    <li class="list-item">
-      <a href="#" class="list-link">Sample Item</a>
-    </li>
-    <li class="list-item">
-      <a href="#" class="list-link">Sample Item</a>
-   
-   
-  </ul>
-</div>
-<div>
-  <h6 class="title footer-title">Company</h6>
-
-  <ul class="list footer-list">
-    <li class="list-item">
-      <a href="#" class="list-link">Sample Item</a>
-    </li>
-    <li class="list-item">
-      <a href="#" class="list-link">Sample Item</a>
-    </li>
-    <li class="list-item">
-      <a href="#" class="list-link">Sample Item</a>
-   
-  </ul>
-</div>
-<div>
-  <h6 class="title footer-title">Useful Links</h6>
-
-  <ul class="list footer-list">
-    <li class="list-item">
-      <a href="#" class="list-link">Sample Item</a>
-    </li>
-    <li class="list-item">
-      <a href="#" class="list-link">Sample Item</a>
-    </li>
-    <li class="list-item">
-      <a href="#" class="list-link">Sample Item</a>
-    </li>
-   
-  </ul>
-</div>
-
       </div>
-    </div>
+    </section>
 
-    <!-- Swiper.js -->
-    <script src="./assets/js/swiper-bundle.min.js"></script>
-    <!-- Custom script -->
-    <script src="./assets/js/main.js"></script>
+    <!-- ----------------- contact ------------------------>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>tommevans210@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+84 357 330 724</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              <a href=""><i class="fa-brands fa-line"></i></a>
+            </div>
+            <a href="images/cv-tom_evans.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------------- footer ------------------------>
+
+      <div class="copyright">
+        <p>
+          Copyright @ tomecodes.com <i class="fa-solid fa-heart"> </i>
+        </p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
