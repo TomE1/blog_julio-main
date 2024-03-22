@@ -79,7 +79,7 @@
     content: "";
     width: 0;
     height: 3px;
-    /* background: #ff004f; */
+    background: #ff004f;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -299,7 +299,7 @@
       border: var(--borderAqua);
     }
     .header {
-      background-image: url(images/phone-background.png);
+      background-image: url(images/phone-background-tom.png);
     }
     .header-text {
       margin-top: 100%;
