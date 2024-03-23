@@ -212,8 +212,7 @@
   }
 
   .contact-title{
-    justify-content: center; /* Horizontally center the text */
-    align-items: center; /* Vertically center the text */
+    text-align: center;
     font-size: 1.2em;
   }
   .contact-right{
