@@ -150,7 +150,7 @@
   
   .tab-titles {
     display: flex;
-    margin: 20px 0 40px;
+    margin: 10px 0 20px;
   }
   
   .tab-links {
@@ -195,15 +195,36 @@
   }
   
   /* ----------------- contact ---------------------- */
-  
-  .contact-left {
-    flex-basis: 35%;
+
+
+  .contact-wrap{
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    /* width: 50%; */
   }
-  .contact-right {
-    flex-basis: 60%;
+
+  .contact-left, .contact-middle, .contact-right{
+    border: var(--borderWhite);
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
   }
+
+  .contact-title{
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+    font-size: 1.2em;
+  }
+  .contact-right{
+    border: var(--borderGreen);
+  }
+
   
-  .contact-left p {
+  .contact-left,  p {
+    margin-top: 30px;
+  }
+  .contact-right p {
     margin-top: 30px;
   }
   
@@ -221,10 +242,12 @@
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: ##34abe0;
+    color: blue;
     display: inline-block;
     transition: transform 0.5s;
   }
+
+
   .social-icons a {
     text-decoration: none;
     font-size: 30px;
@@ -264,38 +287,26 @@
     color: #fff;
   }
   
-  form input,
-  form textarea {
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #262626;
-    padding: 15px;
-    margin: 15px 0;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 6px;
-  }
+
   
-  form .btn2 {
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  
+
   .copyright {
     width: 100%;
     text-align: center;
-    padding: 25px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: #262626;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 5px;
   }
   
   .copyright i {
     color: #ff004f;
   }
+
+
+  
+
   /* ----------------- css for small screens ---------------------- */
   
   nav .fas {
