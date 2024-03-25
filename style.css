@@ -327,8 +327,8 @@
       font-size: 30px;
     }
     nav .fas {
-      display: block;
-      font-size: 25px;
+      display: none;
+      /* font-size: 25px; */
     }
     nav ul {
       background: #ff004f;
@@ -367,10 +367,19 @@
       font-size: 16px;
       margin-right: 20px;
     }
-    .contact-left,
-    .contact-right {
-      flex-basis: 100%;
+    .contact-wrap{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
     }
+
+  .contact-right{
+    display: none;
+  }
+  
+
+
     .copyright {
       font-size: 14px;
     }
